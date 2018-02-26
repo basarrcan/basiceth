@@ -1,0 +1,26 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "Knowledgebase",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Başarcan Celebci",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "ethereumjs-tx": "^1.3.3",
+    "express": "^4.16.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.1",
+    "mongoose": "^5.0.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.4",
+    "web3": "^1.0.0-beta.30"
+  }
+}

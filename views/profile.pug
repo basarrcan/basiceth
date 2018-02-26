@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 #{title}
+  ul.list-group
+    li.list-group-item
+      p #{user.username}
+      
+    li.list-group-item
+      p #{user.email}
+      
+    li.list-group-item
+      p #{user.address}
+      
+    li.list-group-item
+      p Balance = #{balance}
+      
